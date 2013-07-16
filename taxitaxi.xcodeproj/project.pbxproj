@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6314787F1793BB92006B9D37 /* ToClientPathViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6314787E1793BB92006B9D37 /* ToClientPathViewController.m */; };
+		631478821793C4EF006B9D37 /* WaitingForClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 631478811793C4EF006B9D37 /* WaitingForClientViewController.m */; };
+		631E09F51779547800893A9F /* PSLocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 631E09F41779547800893A9F /* PSLocationManager.m */; };
+		631E09F917795AE000893A9F /* TaksometerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 631E09F817795AE000893A9F /* TaksometerViewController.m */; };
+		631E09FC177994AC00893A9F /* NavigatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 631E09FB177994AC00893A9F /* NavigatorViewController.m */; };
+		631E09FF17799F8D00893A9F /* SmeniViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 631E09FE17799F8D00893A9F /* SmeniViewController.m */; };
+		6394E92B178ECE6000B65D06 /* ViborRezhimaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6394E92A178ECE6000B65D06 /* ViborRezhimaViewController.m */; };
 		63BC65F41772BE530015E067 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BC65F31772BE530015E067 /* UIKit.framework */; };
 		63BC65F61772BE530015E067 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BC65F51772BE530015E067 /* Foundation.framework */; };
 		63BC65F81772BE530015E067 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BC65F71772BE530015E067 /* CoreGraphics.framework */; };
@@ -17,11 +24,51 @@
 		63BC66081772BE530015E067 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC66071772BE530015E067 /* Default@2x.png */; };
 		63BC660A1772BE530015E067 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63BC66091772BE530015E067 /* Default-568h@2x.png */; };
 		63BC660D1772BE530015E067 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63BC660B1772BE530015E067 /* MainStoryboard_iPhone.storyboard */; };
-		63BC66101772BE530015E067 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63BC660E1772BE530015E067 /* MainStoryboard_iPad.storyboard */; };
 		63BC66131772BE530015E067 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC66121772BE530015E067 /* ViewController.m */; };
+		63BC661A1772BE770015E067 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BC66191772BE770015E067 /* CoreLocation.framework */; };
+		63BC661C1772BE830015E067 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BC661B1772BE820015E067 /* MapKit.framework */; };
+		63BC661F1772CA920015E067 /* Users.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC661E1772CA920015E067 /* Users.m */; };
+		63BC66221772CCA20015E067 /* TaxiOrders.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC66211772CCA20015E067 /* TaxiOrders.m */; };
+		63BC66251772D0880015E067 /* TaxiRiders.m in Sources */ = {isa = PBXBuildFile; fileRef = 63BC66241772D0880015E067 /* TaxiRiders.m */; };
+		63BC66271772FE650015E067 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BC66261772FE650015E067 /* CFNetwork.framework */; };
+		63BC66291772FE720015E067 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BC66281772FE720015E067 /* SystemConfiguration.framework */; };
+		63BC662B1772FE7D0015E067 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63BC662A1772FE7D0015E067 /* MobileCoreServices.framework */; };
+		63E25B9817740017000B8FB3 /* RESTparser.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E25B9717740016000B8FB3 /* RESTparser.m */; };
+		63E25BC51774182A000B8FB3 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E25BB21774182A000B8FB3 /* SBJsonParser.m */; };
+		63E25BC61774182A000B8FB3 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E25BB41774182A000B8FB3 /* SBJsonStreamParser.m */; };
+		63E25BC71774182A000B8FB3 /* SBJsonStreamParserAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E25BB61774182A000B8FB3 /* SBJsonStreamParserAccumulator.m */; };
+		63E25BC81774182A000B8FB3 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E25BB81774182A000B8FB3 /* SBJsonStreamParserAdapter.m */; };
+		63E25BC91774182A000B8FB3 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E25BBA1774182A000B8FB3 /* SBJsonStreamParserState.m */; };
+		63E25BCA1774182A000B8FB3 /* SBJsonStreamTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E25BBC1774182A000B8FB3 /* SBJsonStreamTokeniser.m */; };
+		63E25BCB1774182A000B8FB3 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E25BBE1774182A000B8FB3 /* SBJsonStreamWriter.m */; };
+		63E25BCC1774182A000B8FB3 /* SBJsonStreamWriterAccumulator.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E25BC01774182A000B8FB3 /* SBJsonStreamWriterAccumulator.m */; };
+		63E25BCD1774182A000B8FB3 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E25BC21774182A000B8FB3 /* SBJsonStreamWriterState.m */; };
+		63E25BCE1774182A000B8FB3 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E25BC41774182A000B8FB3 /* SBJsonWriter.m */; };
+		63E25BD117747DCF000B8FB3 /* CurrentOrderstableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E25BD017747DCF000B8FB3 /* CurrentOrderstableViewController.m */; };
+		63E2ADF017785BC70085FFBC /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E2ADEF17785BC70085FFBC /* NewsViewController.m */; };
+		63E2ADF31778621D0085FFBC /* PrivateInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63E2ADF21778621D0085FFBC /* PrivateInfoViewController.m */; };
+		63EB30CC178FDBEB003CC21B /* OplataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63EB30CB178FDBEB003CC21B /* OplataViewController.m */; };
+		63F72D20177565AC007C05BC /* CustomTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63F72D1F177565AC007C05BC /* CustomTableCell.xib */; };
+		63F72D2317756AA8007C05BC /* CustomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F72D2217756AA8007C05BC /* CustomTableCell.m */; };
+		63FBC6021782A6730019BAD2 /* OrderDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FBC6011782A6730019BAD2 /* OrderDetailsViewController.m */; };
+		63FBC6051782AFB20019BAD2 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FBC6041782AFB10019BAD2 /* LoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6314787D1793BB92006B9D37 /* ToClientPathViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToClientPathViewController.h; sourceTree = "<group>"; };
+		6314787E1793BB92006B9D37 /* ToClientPathViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToClientPathViewController.m; sourceTree = "<group>"; };
+		631478801793C4EF006B9D37 /* WaitingForClientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaitingForClientViewController.h; sourceTree = "<group>"; };
+		631478811793C4EF006B9D37 /* WaitingForClientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaitingForClientViewController.m; sourceTree = "<group>"; };
+		631E09F31779547800893A9F /* PSLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PSLocationManager.h; sourceTree = "<group>"; };
+		631E09F41779547800893A9F /* PSLocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PSLocationManager.m; sourceTree = "<group>"; };
+		631E09F717795ADF00893A9F /* TaksometerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaksometerViewController.h; sourceTree = "<group>"; };
+		631E09F817795AE000893A9F /* TaksometerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaksometerViewController.m; sourceTree = "<group>"; };
+		631E09FA177994AC00893A9F /* NavigatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigatorViewController.h; sourceTree = "<group>"; };
+		631E09FB177994AC00893A9F /* NavigatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigatorViewController.m; sourceTree = "<group>"; };
+		631E09FD17799F8D00893A9F /* SmeniViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmeniViewController.h; sourceTree = "<group>"; };
+		631E09FE17799F8D00893A9F /* SmeniViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmeniViewController.m; sourceTree = "<group>"; };
+		6394E929178ECE6000B65D06 /* ViborRezhimaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViborRezhimaViewController.h; sourceTree = "<group>"; };
+		6394E92A178ECE6000B65D06 /* ViborRezhimaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViborRezhimaViewController.m; sourceTree = "<group>"; };
 		63BC65F01772BE530015E067 /* taxitaxi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = taxitaxi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63BC65F31772BE530015E067 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		63BC65F51772BE530015E067 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -36,9 +83,57 @@
 		63BC66071772BE530015E067 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		63BC66091772BE530015E067 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		63BC660C1772BE530015E067 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		63BC660F1772BE530015E067 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		63BC66111772BE530015E067 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		63BC66121772BE530015E067 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		63BC66191772BE770015E067 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		63BC661B1772BE820015E067 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		63BC661D1772CA920015E067 /* Users.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Users.h; sourceTree = "<group>"; };
+		63BC661E1772CA920015E067 /* Users.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Users.m; sourceTree = "<group>"; };
+		63BC66201772CCA20015E067 /* TaxiOrders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxiOrders.h; sourceTree = "<group>"; };
+		63BC66211772CCA20015E067 /* TaxiOrders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaxiOrders.m; sourceTree = "<group>"; };
+		63BC66231772D0880015E067 /* TaxiRiders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaxiRiders.h; sourceTree = "<group>"; };
+		63BC66241772D0880015E067 /* TaxiRiders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TaxiRiders.m; sourceTree = "<group>"; };
+		63BC66261772FE650015E067 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		63BC66281772FE720015E067 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		63BC662A1772FE7D0015E067 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		63E25B9617740016000B8FB3 /* RESTparser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESTparser.h; sourceTree = "<group>"; };
+		63E25B9717740016000B8FB3 /* RESTparser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESTparser.m; sourceTree = "<group>"; };
+		63E25BB01774182A000B8FB3 /* SBJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJson.h; sourceTree = "<group>"; };
+		63E25BB11774182A000B8FB3 /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		63E25BB21774182A000B8FB3 /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		63E25BB31774182A000B8FB3 /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		63E25BB41774182A000B8FB3 /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		63E25BB51774182A000B8FB3 /* SBJsonStreamParserAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAccumulator.h; sourceTree = "<group>"; };
+		63E25BB61774182A000B8FB3 /* SBJsonStreamParserAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAccumulator.m; sourceTree = "<group>"; };
+		63E25BB71774182A000B8FB3 /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		63E25BB81774182A000B8FB3 /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		63E25BB91774182A000B8FB3 /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		63E25BBA1774182A000B8FB3 /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		63E25BBB1774182A000B8FB3 /* SBJsonStreamTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamTokeniser.h; sourceTree = "<group>"; };
+		63E25BBC1774182A000B8FB3 /* SBJsonStreamTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamTokeniser.m; sourceTree = "<group>"; };
+		63E25BBD1774182A000B8FB3 /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		63E25BBE1774182A000B8FB3 /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		63E25BBF1774182A000B8FB3 /* SBJsonStreamWriterAccumulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterAccumulator.h; sourceTree = "<group>"; };
+		63E25BC01774182A000B8FB3 /* SBJsonStreamWriterAccumulator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterAccumulator.m; sourceTree = "<group>"; };
+		63E25BC11774182A000B8FB3 /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		63E25BC21774182A000B8FB3 /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		63E25BC31774182A000B8FB3 /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		63E25BC41774182A000B8FB3 /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		63E25BCF17747DCF000B8FB3 /* CurrentOrderstableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentOrderstableViewController.h; sourceTree = "<group>"; };
+		63E25BD017747DCF000B8FB3 /* CurrentOrderstableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentOrderstableViewController.m; sourceTree = "<group>"; };
+		63E2ADEE17785BC70085FFBC /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		63E2ADEF17785BC70085FFBC /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		63E2ADF11778621D0085FFBC /* PrivateInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrivateInfoViewController.h; sourceTree = "<group>"; };
+		63E2ADF21778621D0085FFBC /* PrivateInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrivateInfoViewController.m; sourceTree = "<group>"; };
+		63EB30CA178FDBEB003CC21B /* OplataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OplataViewController.h; sourceTree = "<group>"; };
+		63EB30CB178FDBEB003CC21B /* OplataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OplataViewController.m; sourceTree = "<group>"; };
+		63F72D1F177565AC007C05BC /* CustomTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableCell.xib; sourceTree = "<group>"; };
+		63F72D2117756AA8007C05BC /* CustomTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTableCell.h; sourceTree = "<group>"; };
+		63F72D2217756AA8007C05BC /* CustomTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTableCell.m; sourceTree = "<group>"; };
+		63FBC6001782A6730019BAD2 /* OrderDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderDetailsViewController.h; sourceTree = "<group>"; };
+		63FBC6011782A6730019BAD2 /* OrderDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderDetailsViewController.m; sourceTree = "<group>"; };
+		63FBC6031782AFB10019BAD2 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		63FBC6041782AFB10019BAD2 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +141,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63BC662B1772FE7D0015E067 /* MobileCoreServices.framework in Frameworks */,
+				63BC66291772FE720015E067 /* SystemConfiguration.framework in Frameworks */,
+				63BC66271772FE650015E067 /* CFNetwork.framework in Frameworks */,
+				63BC661C1772BE830015E067 /* MapKit.framework in Frameworks */,
+				63BC661A1772BE770015E067 /* CoreLocation.framework in Frameworks */,
 				63BC65F41772BE530015E067 /* UIKit.framework in Frameworks */,
 				63BC65F61772BE530015E067 /* Foundation.framework in Frameworks */,
 				63BC65F81772BE530015E067 /* CoreGraphics.framework in Frameworks */,
@@ -58,6 +158,11 @@
 		63BC65E71772BE530015E067 = {
 			isa = PBXGroup;
 			children = (
+				63BC662A1772FE7D0015E067 /* MobileCoreServices.framework */,
+				63BC66281772FE720015E067 /* SystemConfiguration.framework */,
+				63BC66261772FE650015E067 /* CFNetwork.framework */,
+				63BC661B1772BE820015E067 /* MapKit.framework */,
+				63BC66191772BE770015E067 /* CoreLocation.framework */,
 				63BC65F91772BE530015E067 /* taxitaxi */,
 				63BC65F21772BE530015E067 /* Frameworks */,
 				63BC65F11772BE530015E067 /* Products */,
@@ -88,10 +193,44 @@
 				63BC66021772BE530015E067 /* AppDelegate.h */,
 				63BC66031772BE530015E067 /* AppDelegate.m */,
 				63BC660B1772BE530015E067 /* MainStoryboard_iPhone.storyboard */,
-				63BC660E1772BE530015E067 /* MainStoryboard_iPad.storyboard */,
 				63BC66111772BE530015E067 /* ViewController.h */,
 				63BC66121772BE530015E067 /* ViewController.m */,
 				63BC65FA1772BE530015E067 /* Supporting Files */,
+				63BC66231772D0880015E067 /* TaxiRiders.h */,
+				63BC66241772D0880015E067 /* TaxiRiders.m */,
+				63BC661D1772CA920015E067 /* Users.h */,
+				63BC661E1772CA920015E067 /* Users.m */,
+				63BC66201772CCA20015E067 /* TaxiOrders.h */,
+				63BC66211772CCA20015E067 /* TaxiOrders.m */,
+				63E25B9617740016000B8FB3 /* RESTparser.h */,
+				63E25B9717740016000B8FB3 /* RESTparser.m */,
+				63E25BCF17747DCF000B8FB3 /* CurrentOrderstableViewController.h */,
+				63E25BD017747DCF000B8FB3 /* CurrentOrderstableViewController.m */,
+				63F72D1F177565AC007C05BC /* CustomTableCell.xib */,
+				63F72D2117756AA8007C05BC /* CustomTableCell.h */,
+				63F72D2217756AA8007C05BC /* CustomTableCell.m */,
+				631E09FA177994AC00893A9F /* NavigatorViewController.h */,
+				631E09FB177994AC00893A9F /* NavigatorViewController.m */,
+				63E2ADEE17785BC70085FFBC /* NewsViewController.h */,
+				63E2ADEF17785BC70085FFBC /* NewsViewController.m */,
+				63E2ADF11778621D0085FFBC /* PrivateInfoViewController.h */,
+				63E2ADF21778621D0085FFBC /* PrivateInfoViewController.m */,
+				631E09F717795ADF00893A9F /* TaksometerViewController.h */,
+				631E09F817795AE000893A9F /* TaksometerViewController.m */,
+				631E09FD17799F8D00893A9F /* SmeniViewController.h */,
+				631E09FE17799F8D00893A9F /* SmeniViewController.m */,
+				63FBC6001782A6730019BAD2 /* OrderDetailsViewController.h */,
+				63FBC6011782A6730019BAD2 /* OrderDetailsViewController.m */,
+				63FBC6031782AFB10019BAD2 /* LoginViewController.h */,
+				63FBC6041782AFB10019BAD2 /* LoginViewController.m */,
+				6394E929178ECE6000B65D06 /* ViborRezhimaViewController.h */,
+				6394E92A178ECE6000B65D06 /* ViborRezhimaViewController.m */,
+				63EB30CA178FDBEB003CC21B /* OplataViewController.h */,
+				63EB30CB178FDBEB003CC21B /* OplataViewController.m */,
+				6314787D1793BB92006B9D37 /* ToClientPathViewController.h */,
+				6314787E1793BB92006B9D37 /* ToClientPathViewController.m */,
+				631478801793C4EF006B9D37 /* WaitingForClientViewController.h */,
+				631478811793C4EF006B9D37 /* WaitingForClientViewController.m */,
 			);
 			path = taxitaxi;
 			sourceTree = "<group>";
@@ -99,6 +238,29 @@
 		63BC65FA1772BE530015E067 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				631E09F31779547800893A9F /* PSLocationManager.h */,
+				631E09F41779547800893A9F /* PSLocationManager.m */,
+				63E25BB01774182A000B8FB3 /* SBJson.h */,
+				63E25BB11774182A000B8FB3 /* SBJsonParser.h */,
+				63E25BB21774182A000B8FB3 /* SBJsonParser.m */,
+				63E25BB31774182A000B8FB3 /* SBJsonStreamParser.h */,
+				63E25BB41774182A000B8FB3 /* SBJsonStreamParser.m */,
+				63E25BB51774182A000B8FB3 /* SBJsonStreamParserAccumulator.h */,
+				63E25BB61774182A000B8FB3 /* SBJsonStreamParserAccumulator.m */,
+				63E25BB71774182A000B8FB3 /* SBJsonStreamParserAdapter.h */,
+				63E25BB81774182A000B8FB3 /* SBJsonStreamParserAdapter.m */,
+				63E25BB91774182A000B8FB3 /* SBJsonStreamParserState.h */,
+				63E25BBA1774182A000B8FB3 /* SBJsonStreamParserState.m */,
+				63E25BBB1774182A000B8FB3 /* SBJsonStreamTokeniser.h */,
+				63E25BBC1774182A000B8FB3 /* SBJsonStreamTokeniser.m */,
+				63E25BBD1774182A000B8FB3 /* SBJsonStreamWriter.h */,
+				63E25BBE1774182A000B8FB3 /* SBJsonStreamWriter.m */,
+				63E25BBF1774182A000B8FB3 /* SBJsonStreamWriterAccumulator.h */,
+				63E25BC01774182A000B8FB3 /* SBJsonStreamWriterAccumulator.m */,
+				63E25BC11774182A000B8FB3 /* SBJsonStreamWriterState.h */,
+				63E25BC21774182A000B8FB3 /* SBJsonStreamWriterState.m */,
+				63E25BC31774182A000B8FB3 /* SBJsonWriter.h */,
+				63E25BC41774182A000B8FB3 /* SBJsonWriter.m */,
 				63BC65FB1772BE530015E067 /* taxitaxi-Info.plist */,
 				63BC65FC1772BE530015E067 /* InfoPlist.strings */,
 				63BC65FF1772BE530015E067 /* main.m */,
@@ -166,7 +328,7 @@
 				63BC66081772BE530015E067 /* Default@2x.png in Resources */,
 				63BC660A1772BE530015E067 /* Default-568h@2x.png in Resources */,
 				63BC660D1772BE530015E067 /* MainStoryboard_iPhone.storyboard in Resources */,
-				63BC66101772BE530015E067 /* MainStoryboard_iPad.storyboard in Resources */,
+				63F72D20177565AC007C05BC /* CustomTableCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +342,34 @@
 				63BC66001772BE530015E067 /* main.m in Sources */,
 				63BC66041772BE530015E067 /* AppDelegate.m in Sources */,
 				63BC66131772BE530015E067 /* ViewController.m in Sources */,
+				63BC661F1772CA920015E067 /* Users.m in Sources */,
+				63BC66221772CCA20015E067 /* TaxiOrders.m in Sources */,
+				63BC66251772D0880015E067 /* TaxiRiders.m in Sources */,
+				63E25B9817740017000B8FB3 /* RESTparser.m in Sources */,
+				63E25BC51774182A000B8FB3 /* SBJsonParser.m in Sources */,
+				63E25BC61774182A000B8FB3 /* SBJsonStreamParser.m in Sources */,
+				63E25BC71774182A000B8FB3 /* SBJsonStreamParserAccumulator.m in Sources */,
+				63E25BC81774182A000B8FB3 /* SBJsonStreamParserAdapter.m in Sources */,
+				63E25BC91774182A000B8FB3 /* SBJsonStreamParserState.m in Sources */,
+				63E25BCA1774182A000B8FB3 /* SBJsonStreamTokeniser.m in Sources */,
+				63E25BCB1774182A000B8FB3 /* SBJsonStreamWriter.m in Sources */,
+				63E25BCC1774182A000B8FB3 /* SBJsonStreamWriterAccumulator.m in Sources */,
+				63E25BCD1774182A000B8FB3 /* SBJsonStreamWriterState.m in Sources */,
+				63E25BCE1774182A000B8FB3 /* SBJsonWriter.m in Sources */,
+				63E25BD117747DCF000B8FB3 /* CurrentOrderstableViewController.m in Sources */,
+				63F72D2317756AA8007C05BC /* CustomTableCell.m in Sources */,
+				63E2ADF017785BC70085FFBC /* NewsViewController.m in Sources */,
+				63E2ADF31778621D0085FFBC /* PrivateInfoViewController.m in Sources */,
+				631E09F51779547800893A9F /* PSLocationManager.m in Sources */,
+				631E09F917795AE000893A9F /* TaksometerViewController.m in Sources */,
+				631E09FC177994AC00893A9F /* NavigatorViewController.m in Sources */,
+				631E09FF17799F8D00893A9F /* SmeniViewController.m in Sources */,
+				63FBC6021782A6730019BAD2 /* OrderDetailsViewController.m in Sources */,
+				63FBC6051782AFB20019BAD2 /* LoginViewController.m in Sources */,
+				6394E92B178ECE6000B65D06 /* ViborRezhimaViewController.m in Sources */,
+				63EB30CC178FDBEB003CC21B /* OplataViewController.m in Sources */,
+				6314787F1793BB92006B9D37 /* ToClientPathViewController.m in Sources */,
+				631478821793C4EF006B9D37 /* WaitingForClientViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,14 +390,6 @@
 				63BC660C1772BE530015E067 /* en */,
 			);
 			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		63BC660E1772BE530015E067 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				63BC660F1772BE530015E067 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -312,6 +494,7 @@
 				63BC66181772BE530015E067 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -7,7 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "RESTparser.h"
+#import "SBJson.h"
+#import "TaxiRiders.h"
+#import "TaxiOrders.h"
+#import "CurrentOrderstableViewController.h"
+#import "TaksometerViewController.h"
 
-@interface ViewController : UIViewController
+#import <CoreLocation/CoreLocation.h>
+
+@interface ViewController : UIViewController{
+    NSMutableArray *currentDriverOrders;
+    NSString *ordersType;
+}
+
+@property (nonatomic, retain) NSMutableArray *currentDriverOrders;
+@property (nonatomic, retain) NSString *ordersType;
 
 @end
