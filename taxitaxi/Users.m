@@ -19,7 +19,7 @@
         phone = phone1;
         password = password1;
         email = email1;
-        name = name1;
+        name = name1;//vhgh
         sname = sname1; //fer
     }
     return self;
